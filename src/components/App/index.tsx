@@ -9,6 +9,10 @@ import '../../lib/SnackBar';
 import Intro from '../intro';
 import '../custom-els/LoadingSpinner';
 
+import { now } from 'moment';
+
+now();
+
 const ROUTE_EDITOR = '/editor';
 
 const compressPromise = import(
